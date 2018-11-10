@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/dismiss"
+        android:layout_margin="12dp">
+
+        <TextView
+            android:id="@+id/reason"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:textSize="20dp"
+            tools:text="Sample text grfuygerwkuyygruygeruyg ygygr ygywge ygygweyg ygery gfr geyg gjeyg ygvyg fsygy fygeyr ygryege ygerg"
+            android:textColor="#ffffff"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="fill"
+            android:gravity="center_horizontal"
+
+            />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/dismiss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:text="Dismiss" />
+</RelativeLayout>
