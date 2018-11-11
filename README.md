@@ -26,3 +26,7 @@ cf.show(fm, "fragment_edit_name");
 
 
 Default values are already initialized. Developers can pass an empty string for - buttonText,buttonColor,layoutBackgroundColor,buttonTextColor,reasonTextColor
+
+# Screenshot
+
+![Screenshot](Screenshot/screenshot1.PNG "Sample screenshot of dialog box")
