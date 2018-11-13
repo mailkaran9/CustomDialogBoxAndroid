@@ -27,6 +27,11 @@ cf.show(fm, "fragment_edit_name");
 
 Default values are already initialized. Developers can pass an empty string for - buttonText,buttonColor,layoutBackgroundColor,buttonTextColor,reasonTextColor
 
+# Sample
+
+Another sample of this library can be found at - https://github.com/mailkaran9/UserPermissionsSampleAndroid
+
+
 # Screenshot
 
 ![Screenshot](Screenshot/screenshot1.PNG "Sample screenshot of dialog box")
